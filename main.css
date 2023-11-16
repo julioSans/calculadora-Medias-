@@ -1,0 +1,173 @@
+/* fonts usadas nesse projeto  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Croissant+One&family=Roboto:wght@400;700&display=swap');
+
+/* configuracão padrão do css  */
+*{  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Roboto', sans-serif;;
+}
+
+/* default o thema the site */
+body {
+  background-color:#E7E7E7;
+
+
+
+}
+/* editing o meu campo de querys */
+.conteiner {
+  position: absolute;
+  left: 290px;
+  top: 80px;
+  margin: 20px;
+  width: 1200px;
+  padding: 10px;
+
+}
+
+header#cabecalho-table h1 {
+  font-size: 50px;
+  padding: 10px;
+  color: black;
+}
+
+header {
+  display:flex;
+  align-items: center;
+}
+
+ .conteiner img {
+  position: relative;
+  width: 40px;
+  
+} 
+
+/* editing o formulario de consultas das notas  */
+form input {  
+  font-size: 24px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid rgb(122, 116, 116);
+}
+
+.aprovado {
+  background-color: rgb(15, 223, 15);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.reprovado {
+  background-color:red;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+form#form-query {
+  position: relative;
+  left: -20px;
+  padding: 10px;
+  margin: 0px 0px 10px auto ;
+}
+form#form-query input {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+form#form-query span {
+  margin-right:15px ;
+  padding-right: 2px;
+} 
+
+form#form-query button  {
+  padding: 13px;
+  margin-left:20px ;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(158, 155, 155);
+  background-color: rgb(15, 223, 15);
+}
+
+form#form-query button p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+form#form-query button {
+  position: relative;
+  color: aqua;
+  left: 20px;
+}
+
+/* editing a minha tabela de notas dos alunos */
+table#table-Result{
+  margin-top: -20px;
+  width: 850px;
+  font-size: 18px;
+}
+.conteudo-Table {
+  position: relative;
+  left: 0px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.conteudo-Table span {
+  position: relative;
+  left: -13px ;
+  top: -5px;
+}
+
+.corpo-Table th {
+  position: relative;
+  left: -100px;
+  padding:15px ;
+  margin: 10px;
+  border: 2pc;
+}
+
+.corpo-Table tr{
+  position: relative; 
+  left: 10px;
+}
+
+ hr {
+  position: relative;
+  width: 850px;
+  bottom:-25px ;
+  border: 2px solid rgb(199, 187, 187);
+  border-radius: 1px;
+  color: aqua;
+} 
+
+.corpo-Table span {
+  position: relative;
+  left:10px;
+}
+
+.span th {
+  position: relative;
+  width: 100px;
+
+}
+.spanPrinv{
+  position: relative;
+
+}
+ 
+/* editing o rodape da minha table */
+.rodape-table span {
+   position: relative;
+   left: -13px;
+
+}
+

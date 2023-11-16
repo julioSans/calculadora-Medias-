@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcula Notas </title>
+  <link rel="stylesheet"href="main.css">
+</head>
+<body>
+  <div class="conteiner">
+    <header id="cabecalho-table">
+      <img src="images/logo.png" alt="capelo e diploma">
+      <h1>Calculando as médias</h1>
+    </header>
+    <form id="form-query">
+     <span>
+       <input type="text" placeholder="Nome da Atividade" size="55"id="id-materia" required>
+     </span>
+     <input type="number" placeholder="Nota" id="id-notas"required min="0"max="10">
+      <span>
+        <button type="submit">
+            <p>Adicionar +</p>
+        </button>
+      </span>
+    </form>
+    <table id="table-Result">
+        <div class="conteiner-Table">
+          <thead class="corpo-Table">
+            <hr>
+            <tr>
+              <div class="spanPrinv">
+                <span>
+                  <div class="span">
+                    <th>Nome da atividade</th>
+                  </div>
+                  <th>
+                    <span>Nota</span>
+                  </th>
+                  <th>
+                    Aprovado?
+                  </th>
+                </span>
+              </div>
+            </tr>
+          </thead>
+          <tbody class="conteudo-Table">
+            
+          </tbody>
+          <tfoot class="rodape-table">
+            <div class="foolt">
+                <tr>
+                  <td>Média final</td>
+                  <td id="valor-media-final">
+                    <span>--</span>
+                  </td>
+                  <td id="Resp-final">
+                    <span class="aprovado">---</span>
+                  </td>
+                </tr>
+            </div>
+          </tfoot>
+              </table>
+        </div>
+  </div>
+  <script src="main.js"></script>  
+</body>
+</html>
